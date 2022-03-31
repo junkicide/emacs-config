@@ -1,0 +1,39 @@
+Starting Emacs
+To enter GNU Emacs 27, just type its name: emacs
+Leaving Emacs
+suspend Emacs (or iconify it under X) C-z
+exit Emacs permanently C-x C-c
+Files
+read a file into Emacs C-x C-f
+save a file back to disk C-x C-s
+save all files C-x s
+insert contents of another file into this buffer C-x i
+replace this file with the file you really want C-x C-v
+write buffer to a specified file C-x C-w
+toggle read-only status of buffer C-x C-q
+Getting Help
+The help system is simple. Type C-h (or F1) and follow the directions. If you are a first-time user, type C-h t for a tutorial.
+remove help window C-x 1
+scroll help window C-M-v
+apropos: show commands matching a string C-h a
+describe the function a key runs C-h k
+describe a function C-h f
+get mode-specific information C-h m
+Error Recovery
+abort partially typed or executing command C-g
+recover files lost by a system crash M-x recover-session
+undo an unwanted change C-x u, C-_ or C-/
+restore a buffer to its original contents M-x revert-buffer
+redraw garbaged screen C-l
+Incremental Search
+search forward C-s
+search backward C-r
+regular expression search C-M-s
+reverse regular expression search C-M-r
+select previous search string M-p
+select next later search string M-n
+exit incremental search RET
+undo effect of last character DEL
+abort current search C-g
+Use C-s or C-r again to repeat the search in either direction. If
+Emacs is still searching, C-g cancels only the part not matched.

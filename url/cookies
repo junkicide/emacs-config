@@ -1,0 +1,14 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".arxiv.org"
+  [url-cookie "browser" "91.65.152.199.1643196677588668" "Fri Jan 19 11:41:53 2052 GMT" "/" ".arxiv.org" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:
