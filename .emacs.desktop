@@ -1,0 +1,499 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Nov 30 11:22:48 2023
+;; Desktop file format version 208
+;; Emacs version 28.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (25960 25208 948674 188000) (desktop . "208") "trinetra@trinetra" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-UKWN-mononoki-bold-normal-normal-*-19-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#a89984") (background-color . "#282828") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground . "white") (scroll-bar-background) (menu-bar-lines . 0) (tab-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . fullboth) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#a89984") (sticky) (environment) (last-focus-update) (frameset--id . "73D5-9ED5-686C-34A8") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":1") (explicit-name) (lsp-ui-doc-buffer . "Unprintable entity") (fullscreen-restore . maximized) (height . 49) (width . 173) (left . 0) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 88) (min-pixel-width . 220) (min-pixel-height-ignore . 66) (min-pixel-width-ignore . 88) (min-pixel-height-safe . 22) (min-pixel-width-safe . 44)) hc (pixel-width . 1920) (pixel-height . 1058) (total-width . 175) (total-height . 48) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 963) (pixel-height . 1058) (total-width . 88) (total-height . 48) (normal-height . 1.0) (normal-width . 0.5) (buffer "*shell*" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 49932) (start . 48160)) (prev-buffers ("*shell*" 29604 49932) ("cli.rs<halo2>" 5370 6164) ("error.rs<src>" 6970 7262) ("error.rs<halo2>" 1 492) ("api.rs" 1 1) ("pub.json" 1 3) ("lp.pir" 1 893) ("*rust-analyzer*" 1 1))) (leaf (last . t) (pixel-width . 957) (pixel-height . 1058) (total-width . 87) (total-height . 48) (normal-height . 1.0) (normal-width . 0.5) (buffer "lp.pir" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 475) (start . 1)) (prev-buffers ("*shell*" 28935 30483) ("lp.pir" 1 803) ("README.md" 340 935)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '(#("helm" 0 4 (isearch-regexp-function nil isearch-case-fold-search t)) #("lisp" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("helm-completion-style" 0 21 (fontified t isearch-case-fold-search t isearch-regexp-function nil)) #("vertico" 0 7 (isearch-regexp-function nil isearch-case-fold-search t)) #("github" 0 6 (isearch-regexp-function nil isearch-case-fold-search t)) #("ensure" 0 6 (isearch-regexp-function nil isearch-case-fold-search t)) #("vertic" 0 6 (isearch-regexp-function nil isearch-case-fold-search t)) #("sly" 0 3 (isearch-regexp-function nil isearch-case-fold-search t)) #("emacs" 0 5 (isearch-regexp-function nil isearch-case-fold-search t)) #("ve" 0 2 (isearch-regexp-function nil isearch-case-fold-search t))))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/entropy/vamp-ir/cpv.sh" "~/entropy/vamp-ir/examples/cpv.sh" "~/entropy/vamp-ir/examples/range-check.pir" "~/entropy/vamp-ir/src/error.rs" "~/entropy/vamp-ir/src/halo2/error.rs" "~/entropy/vamp-ir/src/halo2/api.rs" "~/entropy/vamp-ir/src/halo2/cli.rs" "~/entropy/vamp-ir/examples/range.pir" "~/entropy/vamp-ir/examples/lp.pir" "~/entropy/vamp-ir/examples/pub.json" "~/entropy/vamp-ir/README.md" "~/entropy/pathfinder2/src/graph/test.rs" "~/entropy/pathfinder2" "/home/trinetra/Downloads/glpk-5.0/doc/cnfsat.pdf" "~/Downloads/circles_LWCC_weighted_temporal.net" "~/Downloads/glpk-5.0/doc/graphs.pdf" "~/.emacs.d/" "~/.emacs.d/init.el" "~/tasm-lang/src/tests_and_benchmarks.rs" "~/tasm-lang/src/tests_and_benchmarks/ozk/cli.rs" "~/tasm-lang/src/tests_and_benchmarks/ozk.rs" "~/tasm-lang/src/main.rs" "~/tasm-lang/src/tests_and_benchmarks/ozk/ozk_parsing.rs" "~/tasm-lang/src/lib.rs" "~/tasm-lang/Cargo.lock" "~/tasm-lang/Cargo.toml" "~/tasm-lang/src/cli.rs" "~/tasm-lang/src/tests_and_benchmarks/ozk/programs/project_euler/pe1.rs" "~/tasm-lang/src/graft.rs" "~/tasm-lang/src/tasm_code_generator.rs" "~/tasm-lang/src/tests_and_benchmarks/test_helpers/from_neptune_core.rs" "~/tasm-lang/src/tests_and_benchmarks/ozk/programs/other/bfe_add.rs" "~/tasm-lang/src/tests_and_benchmarks/ozk/programs/other/value.rs" "~/tasm-lang/src/tests_and_benchmarks/ozk/tests/value.rs" "~/tasm-lang/src/tests_and_benchmarks/ozk/programs/value.rs" "~/tasm-lang/src/tests_and_benchmarks/ozk/programs/simple_map_on_bfe.rs" "~/tasm-lang/src/tests_and_benchmarks/ozk/programs/bfe_add.rs" "~/notes/whoami.md" "~/entropy/hacspec/specs/sha256/src/sha256.rs" "~/darkfi/zk-spec.pdf" "~/entropy/hacspec/specs/darkfi/src/main.rs" "~/entropy/hacspec/specs/halo2/src/halo2.rs" "~/entropy/hacspec/specs/darkfi/darkfi.rs" "~/darkfi/darkfi/Cargo.toml" "~/darkfi/darkfi/src/contract/money/Cargo.toml" "~/entropy/taiga/rust-toolchain" "~/entropy/quint/entropy.qnt" "~/entropy/taiga-simulator/Simulator/Balance.juvix" "~/entropy/taiga-simulator/Simulator/Resource.juvix" "~/entropy/taiga/taiga_halo2/src/constant.rs" "~/entropy/taiga/taiga_halo2/src/action.rs" "~/.emacs.d/init.el" "~/work/hacspec/examples/blowfish/src/blowfish.rs" "~/entropy/taiga/taiga_halo2/src/binding_signature.rs" "~/work/hacspec/examples-unsafe/examples/aes.rs" "~/work/hacspec/examples/blowfish/src/#blowfish.rs#" "~/work/hacspec/examples/blowfish/src/blowfish.rs~" "~/.emacs.d/straight/repos/lsp-ui/lsp-ui-peek.el" "~/.emacs.d/straight/repos/emacs-material-theme/material-light-theme-exp.el" "~/.cargo/git/checkouts/pasta_curves-dfaa2f9f233c7c2a/5136391/src/pallas.rs" "~/.emacs.d/straight/repos/lsp-mode/lsp-mode.el" "~/.emacs.d/straight/repos/emacs-material-theme/material-light-theme.el" "~/.emacs.d/straight/repos/twittering-mode/twittering-mode.el" "~/.emacs.d/straight/repos/lsp-ui/lsp-ui-doc.el" "~/.emacs.d/straight/repos/rustic/rustic-compile.el" "~/Downloads/summarized_README.md" "~/entropy/taiga/taiga_halo2/src/note_encryption.rs" "~/entropy/taiga/taiga_halo2/src/nullifier.rs" "~/entropy/taiga/taiga_halo2/src/note.rs" "~/entropy/taiga/taiga_halo2/src/circuit/vp_circuit.rs"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/trinetra/entropy/vamp-ir/examples/lp.pir"
+  "lp.pir"
+  'prog-mode
+  '(helm-mode company-mode which-key-mode override-global-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode)
+  475
+  '(385 nil)
+  nil
+  nil
+  '((buffer-display-time 25959 52224 910359 148000) (buffer-file-coding-system . utf-8-emacs-unix) (overwrite-mode))
+  '((mark-ring (910 384 382 918 444 445 894 391 678 937 916 764 763 750 1 582))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/entropy/vamp-ir/src/halo2/cli.rs"
+  "cli.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  6164
+  '(5763 nil)
+  nil
+  nil
+  '((buffer-display-time 25959 46588 178154 25000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (5534 6155 6084 6015 5915 5829 5827 5821 5700 5669 5915 5829 6164))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/entropy/vamp-ir/src/error.rs"
+  "error.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  7262
+  '(7262 nil)
+  nil
+  nil
+  '((buffer-display-time 25959 45985 691211 473000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (771))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/entropy/vamp-ir/src/halo2/error.rs"
+  "error.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  492
+  '(473 nil)
+  nil
+  nil
+  '((buffer-display-time 25959 45970 248088 509000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (458 218 420 492 492))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/entropy/vamp-ir/src/halo2/api.rs"
+  "api.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25959 45827 861533 914000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trinetra/entropy/vamp-ir/examples/pub.json"
+  "pub.json"
+  'js-mode
+  '(helm-mode company-mode which-key-mode override-global-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode)
+  3
+  '(3 nil)
+  nil
+  nil
+  '((buffer-display-time 25959 44083 756360 357000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trinetra/entropy/vamp-ir/README.md"
+  "README.md"
+  'markdown-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode yas-minor-mode goto-address-mode)
+  935
+  '(935 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-display-time 25959 42247 95746 641000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "helm"
+  'dired-mode
+  '(helm-mode company-mode which-key-mode override-global-mode goto-address-mode)
+  2949
+  '(nil nil)
+  t
+  '("/home/trinetra/.emacs.d/straight/repos/helm/")
+  '((buffer-display-time 25958 14362 255478 225000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "repos"
+  'dired-mode
+  '(helm-mode company-mode which-key-mode override-global-mode goto-address-mode)
+  2381
+  '(nil nil)
+  t
+  '("/home/trinetra/.emacs.d/straight/repos/")
+  '((buffer-display-time 25957 14112 125304 503000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "straight"
+  'dired-mode
+  '(helm-mode company-mode which-key-mode override-global-mode goto-address-mode)
+  385
+  '(nil nil)
+  t
+  '("/home/trinetra/.emacs.d/straight/")
+  '((buffer-display-time 25957 14110 890968 259000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "build"
+  'dired-mode
+  '(helm-mode company-mode which-key-mode override-global-mode goto-address-mode)
+  200
+  '(nil nil)
+  t
+  '("/home/trinetra/.emacs.d/straight/build/")
+  '((buffer-display-time 25957 14106 765903 30000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  ".emacs.d"
+  'dired-mode
+  '(helm-mode company-mode which-key-mode override-global-mode goto-address-mode)
+  3317
+  '(nil nil)
+  t
+  '("/home/trinetra/.emacs.d/")
+  '((buffer-display-time 25957 14100 75430 745000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/main.rs"
+  "main.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  737
+  '(737 nil)
+  nil
+  nil
+  '((buffer-display-time 25955 5148 861401 49000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (5 737 737 737 83 368 491 556 628 385 737 737 736 737 737))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks.rs"
+  "tests_and_benchmarks.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  58
+  '(17 nil)
+  nil
+  nil
+  '((buffer-display-time 25955 4836 850836 912000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (58 58 58 58 58 58 58))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk/cli.rs"
+  "cli.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  426
+  '(316 nil)
+  nil
+  nil
+  '((buffer-display-time 25955 4432 310617 994000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (113 18 1 425 423 425 423 426 250 425 426 426 426 426 426 426))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk.rs"
+  "ozk.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  242
+  '(242 nil)
+  nil
+  nil
+  '((buffer-display-time 25955 4228 222527 6000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (242))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk/ozk_parsing.rs"
+  "ozk_parsing.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  276
+  '(3300 nil)
+  nil
+  nil
+  '((buffer-display-time 25955 4358 127409 898000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (3300 3300 276 183 86 3300 3300 3300 2623 1192 2756 3299 3300 3300 3300 3300))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/ast_types.rs"
+  "ast_types.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  438
+  '(2516 nil)
+  nil
+  nil
+  '((buffer-display-time 25955 3748 799852 338000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (10101))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/lib.rs"
+  "lib.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  234
+  '(168 nil)
+  nil
+  nil
+  '((buffer-display-time 25955 2592 192137 39000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (64 211 211 234 234 234 182 234 234 181 234))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tasm_code_generator.rs"
+  "tasm_code_generator.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  1
+  '(695 nil)
+  nil
+  nil
+  '((buffer-display-time 25955 2386 373803 944000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1037 791))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/programs/spill_to_memory.rs"
+  "spill_to_memory.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  403
+  '(28150 nil)
+  nil
+  nil
+  '((buffer-display-time 25955 145 526531 483000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (403))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/Cargo.toml"
+  "Cargo.toml"
+  'conf-toml-mode
+  '(helm-mode company-mode auto-revert-mode which-key-mode override-global-mode goto-address-mode)
+  484
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25955 51 14157 446000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/benchmarks/mmr.rs"
+  "mmr.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  367
+  '(549 nil)
+  nil
+  nil
+  '((buffer-display-time 25954 65390 370048 972000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk/programs/structs/simple_nested_struct.rs"
+  "simple_nested_struct.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  1647
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25954 65073 128745 955000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk/programs/structs/struct_with_vecs.rs"
+  "struct_with_vecs.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  6978
+  '(6674 nil)
+  nil
+  nil
+  '((buffer-display-time 25954 64622 904437 780000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (6978))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/graft.rs"
+  "graft.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  421
+  '(52963 nil)
+  nil
+  nil
+  '((buffer-display-time 25954 63601 145166 554000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (53420 53129 53026 41986 41592 41278 22680 52052 51307 51546 51532 51558 51789 51621 51664 51754))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk/programs/other/nested_tuples.rs"
+  "nested_tuples.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  3667
+  '(3667 nil)
+  nil
+  nil
+  '((buffer-display-time 25954 61135 218205 481000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (3667 4113 4168 4177 3677 3621 3621))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk/programs/other/removal_record_integrity_partial.rs"
+  "removal_record_integrity_partial.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  9471
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25954 58274 335452 787000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk/programs/structs/nested_structs.rs"
+  "nested_structs.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  8558
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25954 58275 868053 217000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk/programs/structs/simple_struct.rs"
+  "simple_struct.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  2963
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25954 58274 594886 917000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk/programs/structs/struct_with_methods.rs"
+  "struct_with_methods.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  4140
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25954 58276 956303 57000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk/programs/structs/struct_with_simple_methods.rs"
+  "struct_with_simple_methods.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  2038
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25954 58268 974533 739000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk/programs/project_euler/pe1.rs"
+  "pe1.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  450
+  '(367 nil)
+  nil
+  nil
+  '((buffer-display-time 25954 43144 413978 316000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (232 463 1119 607 481 450 202 600 384 232 208 357 384 451 637 450))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/test_helpers/from_neptune_core.rs"
+  "from_neptune_core.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  24454
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25954 42019 758627 648000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk/programs/other/value.rs"
+  "value.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  779
+  '(335 nil)
+  nil
+  nil
+  '((buffer-display-time 25954 41327 625289 426000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (286 291 108 92 285 167 827 738 779))))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk/programs/other/bfe_add.rs"
+  "bfe_add.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25954 39768 809528 168000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk/rust_shadows.rs"
+  "rust_shadows.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  2805
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25954 39569 969098 404000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/trinetra/tasm-lang/src/tests_and_benchmarks/ozk/programs.rs"
+  "programs.rs"
+  'rustic-mode
+  '(eldoc-mode helm-mode company-mode auto-revert-mode which-key-mode override-global-mode flycheck-mode lsp-mode yas-minor-mode goto-address-mode rainbow-delimiters-mode hs-minor-mode lsp-modeline-code-actions-mode lsp-modeline-diagnostics-mode lsp-modeline-workspace-status-mode lsp-completion-mode lsp-lens-mode lsp-diagnostics-mode)
+  44
+  '(44 nil)
+  nil
+  nil
+  '((buffer-display-time 25959 41970 748195 343000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "examples"
+  'dired-mode
+  '(helm-mode company-mode which-key-mode override-global-mode goto-address-mode)
+  493
+  '(nil nil)
+  t
+  '("/home/trinetra/entropy/vamp-ir/examples/")
+  '((buffer-display-time 25959 44019 263829 703000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "vamp-ir"
+  'dired-mode
+  '(helm-mode company-mode which-key-mode override-global-mode goto-address-mode)
+  502
+  '(nil nil)
+  t
+  '("/home/trinetra/entropy/vamp-ir/")
+  '((buffer-display-time 25959 44020 322132 768000))
+  '((mark-ring nil)))
+

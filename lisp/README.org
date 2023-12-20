@@ -1,0 +1,66 @@
+* kookie.el
+
+This library configures my emacs setup with Nix.  Primarily you will
+want to use this library as an overlay (similar to
+~kookienomicon/nixfiles~).
+
+
+** Modules
+
++ base :: Primary utilities and configuration to make emacs into my
+  IDE of choice; setup tabs, slightly more ergonomic keybindings, file
+  explorers, and more.
++ kookie-notmuch :: (/Deprecated/) Setup emacs to send and receive
+  e-mail.  Also contains some utilities around working with e-mail
+  based patches.
++ move-lines :: A minor-mode that allows moving (single or batched)
+  lines up and down.  How this is not included in emacs by default is
+  beyond me...
++ notmuch-rules :: (/Deprecated/) Organise notmuch tag searches for my
+  various e-mail filters
++ org :: Setup org-mode and utilities (org-roam, org-roam-ui, ...)
++ rust :: Development tools _specific_ to Rust development
++ theme :: Styling and colours ✨
+
+** How to build
+
+~kookie.el~ uses [[https://nixos.org][Nix]] to build and deploy an installation of emacs.
+This means that for every upgrade, all dependencies are bundled
+together, making atomic up- and downgrades easy!
+
+You can include ~kookie.el~ either as an overlay or flake!
+
+*** As an overlay
+
+First up, clone ~kookie.el~ into your nixfiles structure (or use a
+git-submodule):
+
+#+BEGIN_SRC shell
+  $ git clone https://cyberchaos.dev/kookie/kookie.el overlays/kookie.el
+#+END_SRC
+
+Then add this overlay to the set of overlays you pass to the ~nixpkgs~
+initialisation!
+
+#+BEGIN_SRC nix
+  import <nixpkgs> {
+    overlays = [ ./overlays/kookie.el ];
+  }
+#+END_SRC
+
+Inside your Nix configuration you can then use the exported function
+as follows:
+
+#+BEGIN_SRC nix
+  { pkgs, ... }:
+  {
+    ## for example, running home-manager
+    home.packages = [
+      (pkgs.buildEmacsWithPlan "kookie")
+    ];
+  }
+#+END_SRC
+
+*** As a flake
+
+To be determined

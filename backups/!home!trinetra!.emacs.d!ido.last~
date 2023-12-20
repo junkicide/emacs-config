@@ -1,0 +1,64 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/trinetra/.emacs.d/elpa/sly-20231009.2150/" . "contrib/")
+ ("/home/trinetra/.emacs.d/elpa/" . "sly-20231009.2150/")
+ ("/home/trinetra/" . ".emacs.d/")
+ ("/home/trinetra/.emacs.d/" . "lisp/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/trinetra/.emacs.d/elpa/spaceline-20230922.1127/"
+ "/home/trinetra/.emacs.d/lisp/"
+ "/home/trinetra/.emacs.d/elpa/sly-20231009.2150/contrib/"
+ "/home/trinetra/.emacs.d/elpa/sly-20231009.2150/"
+ "/home/trinetra/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "spaceline.el"
+ "base.el"
+ "theme.el"
+ "lisp.el"
+ "sly-mrepl.el"
+ "sly-autoloads.el"
+ "init.el"
+ "rust.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/trinetra/.emacs.d/elpa/spaceline-20230922.1127/" (25965 3661 937518 862000) "spaceline-config.elc" "spaceline-segments.el" "spaceline-segments.elc" "spaceline.el" "spaceline-pkg.el" "../" "spaceline-config.el" "spaceline-autoloads.el" "./" "spaceline.elc")
+
+ ("/home/trinetra/.emacs.d/lisp/" (25965 14983 969268 243000) "theme.el" "multi-cursor.el" "move-lines.el" "../" "init-org.el" "README.org" "lisp.el" "rust.el" "base.el" "./")
+
+ ("/home/trinetra/.emacs.d/" (25965 14944 278119 938000) "snippets/" "session.10d0e842159837101169831056957638300000019710080" "projects" ".lsp-session-v1" "session.1062d8c7fdc4439f6f166979718525667800000024610084" ".cache/" "session.105c4d705173dd9bec169510967730958500000019730080" "session.10553f57361c8aad12168900286138838500000020480088" "init.el~" "session.103ac0f3a6b10ba414169740235834260800000019410082" "transient/" ".git/" "session.1089a504b925f420ef167440936677869300000022960078" ".emacs.desktop" "lisp/" "tramp" "session.10db397ad392c3b3b516974583171788600000019550080" "ido.last" "session.103e998db7e535b7b167179307789077400000022710078" "eshell/" "session.1036f9e583ef9475f7169738610351511900000019110092" "var/" ".emacs.desktop.lock" "session.10d2110a623432282616649045385721700000282980082" "../" "%backup%~" "init.el" "session.10fc5a0bc5b97d39c5169801094118496000000019530080" "url/" "session.10b3a2b6a11dd209431694603997302600000019740079" "session.1098bee163d85822ef167411944326338200000022360078" "backups/" "auto-save-list/" "session.10f58b719cc9b070e0166987640433265300000024100079" "kookie.el-main.tar.gz" "projectile-bookmarks.eld" "session.105984d0e4dd2b0bc169407812144884000000019210078" "session.107700b5dc237a454b169850144455827300000019520080" "session.10bf5897617f691607168795509417007900000020560078" "recentf" "history" "session.10e1d309c27d4d5b1f169927986397699300000023590080" "./" "session.10e28306b24652bf1169747979495669900000019110080" "session.10394924da8a4a01a1168311098785083200000023110079" "elpa/")
+
+ ("/home/trinetra/" (25965 14683 206157 993000) "Music/" ".ssb/" ".ssh/" "neuchatel.zip" "pairings.md" ".local/" "texmf/" "go/" "Documents/" "strudel/" "strudel_patterns/" ".stack/" ".cargo/" "2023-01-16-index.md" ".ipython/" ".twittering-mode.gpg" "tasm-lang/" ".cache/" ".idris2/" "blackhat/" "triton-vm/" "notes/" "david-prague.toc" ".config/" "esp/" "david-prague.out" "junkicide.github.io/" "Desktop/" ".jupyter/" "omnizk/" "aoc2023/" ".npm/" "Cozette/" "work/" "Calibre Library/" ".gitconfig" "neuchatel/" ".python_history" ".agda/" "xfieldnotes/" "flow.py" ".gnupg/" "Gmail - easyJet booking reference K4TBHPM.pdf" "Arduino/" ".node_repl_history" ".history" "Pictures/" "alles/" "david-prague.log" ".thunderbird/" ".docker/" ".pam_environment" ".mixxx/" ".roswell/" ".gnutls/" ".nvidia-settings-rc" ".sly-mrepl-history" "snap/" ".Xauthority" "entropy/" "signal-desktop-keyring.gpg" ".twittering-mode-user-info.gz" "../" ".bashrc~" "zk-spec.md" ".ghcup/" ".profile" ".cabal/" ".espressif/" ".gitconfig~" ".ghc/" "package.json" ".radicle/" ".wget-hsts" "Templates/" ".profile~" "wasi/" "green_threads/" ".wasmer/" ".emacs.d/" "Downloads/" ".xsession-errors" "exercism/" ".pki/" ".mozilla/" ".rustup/" "halo2-scaffold/" ".bash_logout" ".authinfo" ".sphinxrc" "circles/" ".slime/" "hip-badge-micropython/" ".cups/" ".arduinoIDE/" "Public/" "david-prague.aux" "Videos/" "package-lock.json" "dist.hs" ".bashrc" ".sudo_as_admin_successful" "lisbon/" ".bash_history" "blog/" "./" "berlin/" "node_modules/" ".nvm/" "Rust for Rustaceans.pdf" ".lesshst" ".sbclrc" ".gnome/")
+
+ ("/home/trinetra/.emacs.d/elpa/sly-20231009.2150/contrib/" (25965 7044 566356 759000) "slynk-fancy-inspector.lisp" "sly-fancy.el" "sly-fancy-inspector.el" "sly-indentation.elc" "sly-mrepl.elc" "sly-retro.elc" "sly-profiler.elc" "sly-tramp.el" "sly-fancy.elc" "slynk-stickers.lisp" "sly-profiler.el" "sly-package-fu.elc" "sly-stickers.el" "sly-package-fu.el" "slynk-mrepl.lisp" "slynk-package-fu.lisp" "slynk-arglists.lisp" "sly-fontifying-fu.elc" "sly-fontifying-fu.el" "sly-stickers.elc" "sly-trace-dialog.el" "sly-indentation.el" "slynk-indentation.lisp" "sylvesters.txt" "../" "sly-trace-dialog.elc" "sly-autodoc.elc" "sly-scratch.el" "sly-fancy-trace.elc" "slynk-profiler.lisp" "sly-retro.el" "slynk-trace-dialog.lisp" "sly-fancy-trace.el" "slynk-retro.lisp" "sly-tramp.elc" "sly-mrepl.el" "./" "sly-autodoc.el" "sly-fancy-inspector.elc" "sly-scratch.elc")
+
+ ("/home/trinetra/.emacs.d/elpa/" (25965 8275 84817 418000) "org-roam-20230307.1721/" "emacsql-20230417.1448/" "yasnippet-20230914.1400/" "compat-29.1.4.4.signed" "rainbow-delimiters-20210515.1254/" "cfrs-20220129.1149/" "xterm-color-20230321.3/" "websocket-20230809.305/" "seq-2.24.signed" "treemacs-20231129.2207/" "direnv-20230721.714/" "rustic-20230130.912/" "compat-29.1.4.4/" "sly-20231009.2150/" "sublimity-20200905.1730/" "f-20230823.1159/" "posframe-20230714.227/" "projectile-20231130.1934/" "spinner-1.7.4.signed" "simple-httpd-20230821.1458/" "../" "marginalia-20231130.2350/" "spinner-1.7.4/" "powerline-20221110.1956/" "ox-reveal-20221127.814/" "seq-2.24/" "color-theme-sanityinc-tomorrow-20230806.1552/" "hydra-20220910.1206/" "s-20220902.1511/" "dash-20230714.723/" "pfuture-20220913.1401/" "spaceline-20230922.1127/" "magit-section-20231202.0/" "multiple-cursors-20230728.518/" "avy-20230420.404/" "dashboard-20231201.922/" "ht-20230703.558/" "archives/" "rust-mode-20230805.1558/" "./" "markdown-mode-20231130.549/" "org-roam-ui-20221105.1040/" "gnupg/" "lv-20200507.1518/" "ace-window-20220911.358/")
+
+ ("/home/trinetra/.emacs.d/elpa/sly-20231009.2150/" (25965 7044 194363 920000) "images/" "slynk/" "sly.el" "sly.info" "dir" "contributors.info" "../" "sly-pkg.el" "sly.elc" "contrib/" "lib/" "./" "sly-autoloads.el")
+
+ ("//" (25404 24147 759843 222000) "home/" "lost+found/" "tmp/" "boot/" "run/" "libx32/" "dev/" "srv/" "mnt/" "opt/" "etc/" "usr/" "var/" "snap/" "swapfile" "../" "bin/" "media/" "sbin/" "lib64/" "root/" "lib32/" "sys/" "lib/" "./" "cdrom/" "proc/")
+
+ ("//home/" (25404 24161 619616 902000) "trinetra/" "../" "./")
+
+ ("//home/trinetra/" (25964 1150 65081 682000) "Music/" ".ssb/" ".ssh/" "neuchatel.zip" "pairings.md" ".local/" "texmf/" "go/" "Documents/" "strudel/" "strudel_patterns/" ".stack/" ".cargo/" "2023-01-16-index.md" ".ipython/" ".twittering-mode.gpg" "tasm-lang/" ".cache/" ".idris2/" "blackhat/" "triton-vm/" "notes/" "david-prague.toc" ".config/" "esp/" "david-prague.out" "junkicide.github.io/" "Desktop/" ".jupyter/" "omnizk/" "aoc2023/" ".npm/" "work/" "Calibre Library/" ".gitconfig" "neuchatel/" ".python_history" ".agda/" "xfieldnotes/" "flow.py" ".gnupg/" "Gmail - easyJet booking reference K4TBHPM.pdf" "Arduino/" ".node_repl_history" ".history" "Pictures/" "alles/" "david-prague.log" ".thunderbird/" ".docker/" ".pam_environment" ".mixxx/" ".roswell/" ".gnutls/" ".nvidia-settings-rc" ".sly-mrepl-history" "snap/" ".Xauthority" "entropy/" "signal-desktop-keyring.gpg" ".twittering-mode-user-info.gz" "../" ".bashrc~" "zk-spec.md" ".ghcup/" ".profile" ".cabal/" ".espressif/" ".gitconfig~" ".ghc/" "package.json" ".radicle/" ".wget-hsts" "Templates/" ".profile~" "wasi/" "green_threads/" ".wasmer/" ".emacs.d/" "Downloads/" ".xsession-errors" "exercism/" ".pki/" ".mozilla/" ".rustup/" "halo2-scaffold/" ".bash_logout" ".authinfo" ".sphinxrc" "circles/" ".slime/" "hip-badge-micropython/" ".cups/" ".arduinoIDE/" "Public/" "david-prague.aux" "Videos/" "package-lock.json" "dist.hs" ".bashrc" ".sudo_as_admin_successful" "lisbon/" ".bash_history" "blog/" "./" "berlin/" "node_modules/" ".nvm/" "Rust for Rustaceans.pdf" ".lesshst" ".sbclrc" ".gnome/")
+
+ ("//home/trinetra/.emacs.d/" (25965 7112 5070 267000) "snippets/" "session.10d0e842159837101169831056957638300000019710080" "projects" ".lsp-session-v1" "session.1062d8c7fdc4439f6f166979718525667800000024610084" ".cache/" "session.105c4d705173dd9bec169510967730958500000019730080" "session.10553f57361c8aad12168900286138838500000020480088" "init.el~" "session.103ac0f3a6b10ba414169740235834260800000019410082" "transient/" ".git/" "session.1089a504b925f420ef167440936677869300000022960078" ".emacs.desktop" "lisp/" "tramp" "session.10db397ad392c3b3b516974583171788600000019550080" "ido.last" "session.103e998db7e535b7b167179307789077400000022710078" "eshell/" "session.1036f9e583ef9475f7169738610351511900000019110092" "var/" ".emacs.desktop.lock" "session.10d2110a623432282616649045385721700000282980082" "../" "%backup%~" "init.el" "session.10fc5a0bc5b97d39c5169801094118496000000019530080" "url/" "session.10b3a2b6a11dd209431694603997302600000019740079" "session.1098bee163d85822ef167411944326338200000022360078" "backups/" "auto-save-list/" "session.10f58b719cc9b070e0166987640433265300000024100079" "kookie.el-main.tar.gz" "projectile-bookmarks.eld" "session.105984d0e4dd2b0bc169407812144884000000019210078" "session.107700b5dc237a454b169850144455827300000019520080" "session.10bf5897617f691607168795509417007900000020560078" "recentf" "history" "session.10e1d309c27d4d5b1f169927986397699300000023590080" "./" "session.10e28306b24652bf1169747979495669900000019110080" "session.10394924da8a4a01a1168311098785083200000023110079" "elpa/")
+
+ ("//home/trinetra/.emacs.d/elpa/" (25965 7043 602375 321000) "org-roam-20230307.1721/" "emacsql-20230417.1448/" "yasnippet-20230914.1400/" "compat-29.1.4.4.signed" "rainbow-delimiters-20210515.1254/" "cfrs-20220129.1149/" "xterm-color-20230321.3/" "websocket-20230809.305/" "seq-2.24.signed" "treemacs-20231129.2207/" "direnv-20230721.714/" "rustic-20230130.912/" "compat-29.1.4.4/" "sly-20231009.2150/" "sublimity-20200905.1730/" "f-20230823.1159/" "posframe-20230714.227/" "projectile-20231130.1934/" "spinner-1.7.4.signed" "simple-httpd-20230821.1458/" "../" "spinner-1.7.4/" "powerline-20221110.1956/" "ox-reveal-20221127.814/" "seq-2.24/" "color-theme-sanityinc-tomorrow-20230806.1552/" "hydra-20220910.1206/" "s-20220902.1511/" "dash-20230714.723/" "pfuture-20220913.1401/" "spaceline-20230922.1127/" "magit-section-20231202.0/" "multiple-cursors-20230728.518/" "avy-20230420.404/" "dashboard-20231201.922/" "ht-20230703.558/" "archives/" "rust-mode-20230805.1558/" "./" "markdown-mode-20231130.549/" "org-roam-ui-20221105.1040/" "gnupg/" "lv-20200507.1518/" "ace-window-20220911.358/")
+
+ ("//home/trinetra/.emacs.d/elpa/sly-20231009.2150/" (25965 7044 194363 920000) "images/" "slynk/" "sly.el" "sly.info" "dir" "contributors.info" "../" "sly-pkg.el" "sly.elc" "contrib/" "lib/" "./" "sly-autoloads.el")
+
+ ("/home/" (25404 24161 619616 902000) "trinetra/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,16 @@
+(defun table (n)
+  (if (= n 1) (list "0" "1") (concatenate 'list (prependstr "0" (table (- n 1)))
+                                          (prependstr "1" (reverse (table (- n 1)))))))
+
+(defun prependstr (str list)
+  (map 'list (lambda (x) (concatenate 'string str x)) list))
+
+(defun build-table (n) (map 'list (lambda (x) (parse-integer x :radix 2 )) (table n)))
+
+
+(defun number-from-pos (n) (let*
+                               (length (integer-length n))
+                             (limit (expt 2 length))
+                             (if (= n 0) "0" (if (> n (/ limit 2)) (concatenate 'string "1" (number-from-pos (- limit n)))
+                                                 (concatenate 'string "0" (number-from-pos (- (/ limit 2) 0) )
+                                                              )))))

@@ -1,0 +1,14 @@
+(provide 'lisp)
+
+;; defer lisp selection to ros
+(setq inferior-lisp-program "ros -Q run")
+
+;;; enable sly editing mode for lisp
+(add-hook 'lisp-mode-hook 'sly-editing-mode)
+
+;;; some annoying bug fix I don't remember now
+(setq lispy-no-space t)
+
+;;; enable lispy for sly editing and sly repl
+(add-hook 'sly-editing-mode-hook 'lispy-mode)
+(add-hook 'sly-mrepl-mode-hook 'lispy-mode)

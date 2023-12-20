@@ -1,0 +1,66 @@
+.ls
+ls
+cd ..
+cd
+cd Downloads/
+ls
+ls -l
+ls -h
+which ls
+*ls
+ls
+cd ..
+cd work/
+ls
+cd ..
+ls
+cd exercism
+ls
+cd rust
+ls
+cd dot-dsl/
+ls
+cd ..
+exercism download --track=rust --exercise=gigasecond
+cd gigasecond/
+ls
+cd src
+cargo test
+cargo test
+cargo test
+cargo test -all
+cargo test --workspace
+cargo run
+cargo test --no-fail-fat
+cargo test --no-fail-fast
+cargo test -- --ignored
+exercism submit lib.rs 
+exercism download --track=rust --exercise=acronym
+cd ../../acronym/
+ls
+cargo test -- --ignored
+cargo test -- --ignored
+RUST_BACKTRACE=cargo test -- --ignored
+RUST_BACKTRACE=1 cargo test -- --ignored
+cargo test -- --ignored
+ls
+cd ..
+cd ..
+cd tasm-lang/
+ls
+git checkout -v
+git remote -c
+git remote
+git remote -v
+git pull --upstream
+git pull upstream master
+cd
+clear
+magit clone --recursive https://github.com/junkicide/otti.git
+git clone --recursive https://github.com/junkicide/otti.git
+kvm-ok
+sudo apt remove docker-desktop
+sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
